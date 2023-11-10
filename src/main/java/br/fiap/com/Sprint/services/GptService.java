@@ -27,7 +27,7 @@ public class GptService {
     public static Object postMessage(RoteiroDto roteiroDto){
         try{
             ArrayList<MessageModel> messages = new ArrayList<MessageModel>();
-            messages.add(new MessageModel("user", "Desejo viajar de:" + roteiroDto.getTo() + ", para:" + roteiroDto.getFrom() + ", durante " + roteiroDto.getDays() + " dias. Simule um roteiro de viagem com esses dados."));
+            messages.add(new MessageModel("user", "Desejo viajar de:" + roteiroDto.getFrom() + ", para:" + roteiroDto.getTo() + ", durante " + roteiroDto.getDays() + " dias. Simule um roteiro de viagem com esses dados."));
             messages.add(new MessageModel("system", "gere um roteiro seguindo esse modelo de JSON {\"city\":\"\",\"foods\":[{\"nome\":\"\",\"preco\":0.0}],\"accomodations\":[{\"nome\":\"\",\"preco\":0.0}],\"turism\":[\"\"],\"transport\":[{\"nome\":\"\",\"preco\":0.0}]}. Na parte de acommodations coloque o nome certos dos hoteis"));
             GptRequest gptRequest = new GptRequest();
             gptRequest.setModel("gpt-3.5-turbo");
@@ -37,7 +37,7 @@ public class GptService {
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create("https://api.openai.com/v1/chat/completions"))
                     .header("Content-Type", "application/json")
-                    .header("Authorization", "Bearer {COLOQUE SUA CHAVE AQUI}")
+                    .header("Authorization", "Bearer SUA API KEY AQUI")
                     .method("POST", HttpRequest.BodyPublishers.ofString(json))
                     .build();
             HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
