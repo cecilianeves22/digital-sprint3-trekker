@@ -12,6 +12,13 @@ Solução desenvolvida para servir como um gerenciamento do fluxo de dados entre
 ### Vídeo do projeto final
 [Sprint 4 - Enterprise Application](https://youtu.be/0S26ed02sBY)
 
+##  Matéria - Disruptive Architectures: IT, IoT & IA
+### Vídeo do projeto final
+[Sprint 4 - Disruptive Architectures](https://youtu.be/0S26ed02sBY)
+
+### Documento
+[Sprint 4 - Disruptive Architectures](https://github.com/cecilianeves22/digital-sprint4-trekker/blob/master/Trekker.pdf%20(1).pdf)
+
 ## Deploy
 ### Pré-requisitos:
 - Ter instalado o Gradle (Para buildar projeto)
