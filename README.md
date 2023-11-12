@@ -9,8 +9,7 @@ Solução desenvolvida para servir como um gerenciamento do fluxo de dados entre
 [Sprint 4 - Digital Business](https://youtu.be/0S26ed02sBY)
 
 ##  Matéria - Enterprise Application
-### Matéria - Enterprise Application
-[Sprint 3 - Enterprise Application](https://github.com/cecilianeves22/digital-sprint3-trekker/blob/088c9acbcf22d6501b31f0e6d1fce1480f99a3a0/Challenge3-Enterprise-Trekker.pdf.pdf)
+### Vídeo do projeto final
 [Sprint 4 - Enterprise Application](https://youtu.be/0S26ed02sBY)
 
 ## Deploy
